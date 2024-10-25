@@ -5,6 +5,7 @@ Assignment: Align content within a flexbox to look like a standard webpage heade
 File: style.css
 */
 .header  {
+  padding: 8px;
   font-family: monospace;
   background: papayawhip;
   display: flex;
