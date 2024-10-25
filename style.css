@@ -8,6 +8,8 @@ File: style.css
   font-family: monospace;
   background: papayawhip;
   display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .logo {
@@ -16,6 +18,7 @@ File: style.css
   color: tomato;
   background: white;
   padding: 4px 32px;
+  align-content: center;
 }
 
 ul {
