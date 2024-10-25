@@ -5,11 +5,15 @@ Assignment: Align content within a flexbox to look like a standard webpage heade
 File: style.css
 */
 .header  {
+  /*Adds padding to space the content within the header class from the border by 8px in any direction*/
   padding: 8px;
   font-family: monospace;
   background: papayawhip;
+  /*sets the display to flex within the header class*/
   display: flex;
+  /*spaces the content evenly horizontally within the header class*/
   justify-content: space-between;
+  /*centers the content vertically within the header class*/
   align-items: center;
 }
 
@@ -24,9 +28,13 @@ File: style.css
 ul {
   /* this removes the dots on the list items*/
   list-style-type: none;
+  /*sets the display method of the unordered lists to flex so their contents can be adjusted independently of the header class*/
   display: flex;
+  /*spaces each item within the unorderd lists to be 8px apart from each other*/
   gap: 8px;
+  /*removes the margin from the items within the unordered lists so that their spacing is modified only by flexbox properties*/
   margin: 0;
+  /*padding is set to zero for the same reason that the margin was set to zero*/
   padding: 0;
 }
 
